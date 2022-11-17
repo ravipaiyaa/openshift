@@ -28,3 +28,11 @@ app.get("/date", function (req, res) {
 
 	res.send(todaysDate);
 });
+
+app.get("/email", function (req, res) {
+	res.send({
+		Name: "Ravikumar kannan",
+		email: "ravikumar.kannan@xebia.com",
+		id: "XI2555",
+	});
+});
